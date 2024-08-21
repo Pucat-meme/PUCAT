@@ -53,12 +53,13 @@ main {
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.1);
     padding: 30px;
     margin-bottom: 30px;
     width: 100%;
     max-width: 600px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: none; /* No blur effect */
+    background-color: transparent; /* Fully transparent background */
+    box-sizing: border-box;
 }
 
 #cat-interactive {
@@ -66,6 +67,7 @@ section {
     background-color: transparent;
     box-shadow: none;
     padding: 0;
+    margin-bottom: 30px; /* Added margin for spacing */
 }
 
 .cat-container {
@@ -95,6 +97,7 @@ h2 {
     border-bottom: 2px solid #FFD700;
     padding-bottom: 10px;
     font-family: 'Pacifico', cursive;
+    margin-bottom: 20px; /* Added margin for spacing */
 }
 
 ul {
@@ -141,10 +144,10 @@ footer {
 }
 
 .tokenomics-item {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: transparent;
     padding: 20px;
     text-align: center;
-    backdrop-filter: blur(5px);
+    backdrop-filter: none; /* No blur effect */
     border-radius: 10px;
 }
 
@@ -173,6 +176,7 @@ footer {
 .content {
     text-align: center;
     color: white;
+    background-color: transparent; /* Fully transparent background */
 }
 
 .content h1 {
@@ -207,45 +211,9 @@ footer {
     background: linear-gradient(135deg, #836FFF, #8A2BE2);
 }
 
-/* Existing CSS and any other required styles */
-
-/* New Section and About PUCAT */
-.content,
-.about-pucat {
-    background-color: transparent;
-    text-align: center;
-    color: white;
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.contract-address {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-.button-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-/* Soft blue-purple gradient for buttons */
-.button {
-    padding: 10px 20px;
-    font-size: 1em;
-    text-decoration: none;
-    border-radius: 25px;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-    background: linear-gradient(135deg, #6A5ACD, #7B68EE);
-    color: white;
-    border: none;
-}
-
-.button:hover {
-    background: linear-gradient(135deg, #836FFF, #8A2BE2);
+/* Video Section Container */
+.video-container {
+    background-color: transparent; /* Fully transparent background */
+    margin-bottom: 30px; /* Added margin for spacing */
+    padding: 30px; /* Added padding for spacing */
 }
